@@ -55,7 +55,7 @@ def create_repos(repos):
     g.close()
 
 def main():
-    set_read_to_all("pull")
+    monitor_invitations_in_repos()
 
 if __name__ == "__main__":
     main()
